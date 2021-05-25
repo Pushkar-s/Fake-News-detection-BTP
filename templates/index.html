@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BTP</title>
+    <link rel="stylesheet" href="/static/css/main.css">
+    <link rel="stylesheet" href="/static/css/navbar.css">
+    
+</head>
+<body>
+
+    <nav class="nav-main">
+        <div class="btn-toggle-nav" onclick="toggleNav()">
+          <div class="btn-x">X</div>
+        </div>
+        <ul>
+          <li><a href="/">Fake New Detector</a></li>
+          <li><a href="/">Our Team</a></li>
+        </ul>
+    </nav>
+      
+    <div class="nav-sidebar">
+        <ul>
+            <li><span>Item list</span></li>
+            <li><a href="/">Home </a></li>
+            <li><a href="/">Our Team</a></li>
+        </ul>
+    </div>
+    <section>
+        <p>Russian warships ready to strike terrorists near Aleppo 08.11.2016 | Source: Source: Mil.ru Attack aircraft of the Russian aircraft carrier Admiral Kuznetsov get ready to strike terrorists positions in the vicinity of Aleppo, sources at the Russian Defense Ministry said, RBC reports. Insurgents attempts to break into Aleppo from outside are meaningless, the source said. The main task of the aircraft carrier aviation group is to strike missile and air blows on the terrorists , whose goal is to enter Aleppo. After the attacks on terrorists positions, one will have to forget about the support for insurgents from the outside, the source said. The Russian group in the Mediterranean Sea consists of the Admiral Kuznetsov aircraft carrier , the heavy nuclear missile cruiser Pyotr Velikiy (Peter the Great) and large anti-submarine ships Severomorsk and Vice-Admiral Kulakov. Russia has increased intelligence activities in Syria to establish the areas, where terrorists are concentrated, as well as the routes that they use to move from one area to another. The militants took advantage of the humanitarian pause and regrouped their forces to prepare for a new breakthrough into the eastern part of Aleppo, the source added. According to the source, Russia will use new weapons during the upcoming attacks on terrorists . It was said that the Russian warships in the Mediterranean Sea will launch Caliber cruise missiles, although it was not specified which ships would be responsible for the launches. Pravda.Ru Russian warships travel to Syria</p>
+        <br>
+        <br>
+        <p>Russian warships ready to strike terrorists near Aleppo 08.11.2016 |  Attack aircraft of the Russian aircraft carrier Admiral Kuznetsov get ready to strike terrorists positions in the vicinity of Aleppo. Pravda.Ru Russian warships travel to Syria</p>
+
+    </section>
+
+    <section>
+        <textarea name="si" id="stringinput" cols="100" rows="10"></textarea>
+        <select name="mt" id="modeltype">
+            <option value="multinomial">Multinomial</option>
+            <option value="lstm">LSTM</option>
+        </select>
+        <button id="runselectedmodel"> Submit </button>   
+    </section>
+
+    <section >
+        <h2>Write a Python Program</h2>
+        <textarea  name="ne" id="pycode" cols="100" rows="30"></textarea>
+        <button id="runBtn"> 
+            Run
+        </button>
+        <p>Output</p>
+        <textarea name="" id="output" cols="200" rows="8"></textarea>
+        <p>Error/Warnings</p>
+        <textarea name="" id="outputerr" cols="200" rows="8"></textarea>
+    </section>
+    
+
+
+</body>
+    <link rel="stylesheet" type="text/css" href="/static/codemirror/lib/codemirror.css">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="/static/codemirror/lib/codemirror.js"></script>
+    <script type="text/javascript" src="/static/js/navbar.js"></script>
+    <!-- <script type="text/javascript" src="/static/js/codeeditor.js"></script> -->
+    <script src="/static/js/main.js"></script>
+</html>
+
